@@ -1,0 +1,145 @@
+html {
+    cursor: url(imgs/hold-chopstick1.png) 30 30, auto ;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#dimensãoJogo {
+    width: 100%;
+    height: 950px;
+    margin: 0px auto;
+    background: url(imgs/bg-1.jpg) no-repeat;
+
+}
+
+.painel {
+    position: absolute;
+    background: rgba(206, 186, 186,0.5);
+    padding: 30px;
+    bottom: 0px;
+    float: left;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#cronometro {
+    font-size: 20px;
+}
+
+.mosquito1 {
+    width: 200px;
+    height: 200px;
+}
+
+.mosquito2 {
+    width: 300px;
+    height: 300px;
+}
+
+.mosquito3 {
+    width: 50px;
+    height: 50px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+div #game-over {
+    position: absolute;
+    background: rgba(206, 186, 186,0.5);
+    border-radius: 50px;
+    left: 750px;
+    padding: 40px;
+    top: 60px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+
+div #botão {
+    position: absolute;
+    font-weight: bold;
+    padding: 20px;
+    right: 170px;
+    border: 0px;
+    color: #fff;
+    background: rgb(59, 21, 21);
+    border-radius: 10px;
+    top: 500px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 300ms ease-out;
+}
+
+div #botão:hover {
+    border: 0px solid #fff;
+    color: seashell;
+    background: rgb(128, 64, 64)
+}
+
+div #vitoria {
+    position: absolute;
+    background: rgba(206, 186, 186,0.5);
+    border-radius: 50px;
+    left: 750px;
+    padding: 40px;
+    top: 60px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+
+div #index {
+    position: absolute;
+    border-radius: 50px;
+    left: 750px;
+    padding: 40px;
+    top: 60px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace
+}
+
+div #etiquetas {
+    position: relative;
+    padding: 10px 10px;
+    font-size: 20px;
+    top: 70px;
+    right: 625px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+
+div #etiquetas:hover {
+    background: rgb(116, 116, 116);
+    color: #fff;
+}
+
+div #botãostart {
+    position: relative;
+    font-weight: bold;
+    padding: 20px;
+    right: 355px;
+    border: 0px;
+    color: #fff;
+    background: rgb(73, 4, 4);
+    border-radius: 10px;
+    top: 0px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 300ms ease-out;
+}
+
+div #botãostart:hover {
+    border: 0px solid #fff;
+    color: seashell;
+    background: rgb(177, 8, 8)
+}
+

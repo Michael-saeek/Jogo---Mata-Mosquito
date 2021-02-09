@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro jogo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <script src="jogo.js"></script>
+</head>
+
+
+<body onresize="ajustarTamanho()">
+
+<div id="dimensãoJogo">
+
+
+
+    <div class="painel">
+        <img id ="v3" src="imgs/coracao_cheio.png">
+        <img id ="v2" src="imgs/coracao_cheio.png">
+        <img id ="v1" src="imgs/coracao_cheio.png">
+        <br/> <br/>
+        <span id="cronometro">Cronometro</span>
+    </div>
+
+
+
+</div>
+    
+<script>
+
+    // essa função foi chamada aqui para que o body possa reconhecer a função
+   var mosquito = setInterval (function() {
+    
+    posiçãoRandomica()
+    }, mosquitoveloz)
+</script>
+</body>
+
+</html>
